@@ -6,6 +6,8 @@ st.sidebar.title("Parámetros")
 
 st.write("Elaborado por: Flavia Valencia")
 
+st.sidebar.image("DMC.png")
+
 sesion = st.sidebar.selectbox("Seleccione una sesión", ["Sesión 1","Sesión 2","Sesión 3","Sesión 4"] )
 
 if sesion == "Sesión 1":
