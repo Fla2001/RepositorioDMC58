@@ -35,7 +35,11 @@ elif sesion == "Sesión 3":
 
   st.write(arreglo)
 
-
-
-else:
+elif sesion == "Sesión 4":
   st.write("Bienvenido la sesión 4")
+principal = st.number_input("Ingrese el monto del préstamo", value=1000)
+tasa_anual = st.number_input("Ingrese el monto del préstamo", value=1000)
+anios = st.number_input("Ingrese el monto del préstamo", value=1)
+pagos_anio = st.number_input("Ingrese la cantidad de pagos por año", value=12)
+cuota = If.cuota_prestamo(principañ, tasa_anual, anios, pagos_anio)
+st.write(f"El valor de la cuota es {cuota}"
